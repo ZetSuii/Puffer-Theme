@@ -20,7 +20,7 @@ echo "2. Close / Cancel"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
-    cd var/www/pufferpanel/theme
+    cd /var/www/pufferpanel/theme
     bash <(curl -s https://github.com/ZetSuii/Puffer-Theme/blob/Simple-Black/SimpleBlack.tar)
     fi
 if [ $choice == "2" ]
