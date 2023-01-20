@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/
 
 set -e
 SCRIPT_VERSION="V1.0"
