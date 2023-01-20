@@ -20,7 +20,7 @@ echo "2. Close / Cancel"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
-    bash <(curl -s https://raw.githubusercontent.com/Sigma-Production/PteroFreeStuffinstaller/V1.10.1/resources/Addons.sh)
+    bash <(curl -s https://github.com/ZetSuii/Puffer-Theme/blob/Simple-Black/SimpleBlack.tar)
 if [ $choice == "2" ]
     then
     echo "Canceling..."
