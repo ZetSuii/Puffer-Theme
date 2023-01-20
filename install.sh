@@ -26,4 +26,4 @@ if [ $choice == "2" ]
     then
     echo "Canceling..."
     exit 0
-fi
+    fi
