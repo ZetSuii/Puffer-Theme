@@ -26,4 +26,3 @@ if [ $choice == "2" ]
     echo "Canceling..."
     exit 0
 fi
-echo "Simple Dark Theme Added !"
