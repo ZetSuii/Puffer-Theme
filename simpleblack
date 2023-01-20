@@ -3,7 +3,9 @@ echo
 if [ $choice == "y" ]
     then
     cd /var/www/pufferpanel/theme
-    bash <(curl -s https://github.com/ZetSuii/Puffer-Theme/blob/Simple-Black/SimpleBlack.tar)
+    bash <(wget https://github.com/ZetSuii/Puffer-Theme/blob/Simple-Black/SimpleBlack.tar)
+    echo
+    echo "Success !"
 if [ $choice == "n" ]
     then
     echo "Okkay, bye !"
