@@ -21,7 +21,7 @@ read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
     cd /var/www/pufferpanel/theme
-    bash <(git@github.com:ZetSuii/Puffer-Theme.git)
+    wget <(git@github.com:ZetSuii/Puffer-Theme.git)
     fi
 if [ $choice == "2" ]
     then
