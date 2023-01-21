@@ -1,0 +1,24 @@
+.v-toolbar__content, .v-toolbar__extension
+{
+	background: linear-gradient(126deg, rgba(38, 38, 38, 1) 11.2%, rgb(63, 61, 61) 78.9%);
+}
+
+.v-navigation-drawer__content
+{
+	background: 30363a;
+}
+
+.v-navigation-drawer .v-list:not(.v-select-list)
+{
+	background: inherit;
+}
+
+.v-application
+{
+	font-family: blippo;
+}
+
+.theme--dark.v-application
+{
+	background: linear-gradient(104deg, rgb(24 24 24) 11.2%, rgb(63, 61, 61) 78.9%)
+}
