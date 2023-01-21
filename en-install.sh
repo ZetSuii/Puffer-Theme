@@ -20,7 +20,6 @@ echo "2. Close / Cancel"
 read -p "Please enter a number: " choice
 if [ $choice == "1" ]
     then
-    echo
     cd /var/www/pufferpanel/theme
     bash <(git@github.com:ZetSuii/Puffer-Theme.git)
     fi
