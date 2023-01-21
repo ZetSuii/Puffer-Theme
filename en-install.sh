@@ -22,7 +22,7 @@ if [ $choice == "1" ]
     then
     echo
     cd /var/www/pufferpanel/theme
-    bash <(https://github.com/ZetSuii/Puffer-Theme.git)
+    bash <(git@github.com:ZetSuii/Puffer-Theme.git)
     fi
 if [ $choice == "2" ]
     then
